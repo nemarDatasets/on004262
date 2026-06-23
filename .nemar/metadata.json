@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Continuous Feedback Processing",
+  "description": "This dataset contains EEG recordings from 21 participants performing a continuous feedback prediction task in which they learned to predict the final level of an animated rising bar based on probabilistic cues. Participants made predictions using mouse responses and received point-based feedback, with trial difficulty manipulated through six gnome cue conditions varying in outcome predictability. The dataset includes behavioral responses, timing information, and neural recordings suitable for investigating feedback processing and predictive learning mechanisms.",
+  "methods_description": "Participants completed a prediction task where each trial consisted of a fixation cross (400-600 ms), a gnome cue (1500 ms) indicating trial type, a bar outline (until response), bar animation (1 degree per second), and final outcome display (1000 ms). Six conditions manipulated outcome predictability: two highly predictable conditions (consistently low or high), two somewhat predictable conditions (80% biased), and two unpredictable conditions (equal probability or random uniform distribution). Participant responses were recorded via mouse input, and trial events were marked with trigger codes indicating fixation, cue onset, bar appearance, response, animation start, and animation end.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,27 @@
     "Yan Yan": {},
     "Laurence T. Hunt": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004262.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "feedback processing"
+    },
+    {
+      "term": "predictive learning"
+    },
+    {
+      "term": "decision making"
+    },
+    {
+      "term": "reward prediction"
+    },
+    {
+      "term": "cognitive neuroscience"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on004262",
       "identifier_type": "URL",
@@ -24,16 +41,21 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004262",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004262.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
+  "resource_type_specific": "Neuroimaging Dataset",
   "modalities": [
     "beh",
     "eeg"
   ],
-  "resource_type_specific": "Neuroimaging Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "3.7 GB (76 files)"
   ],
   "formats": [
     ".eeg",
@@ -44,29 +66,8 @@
     ".png",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset contains behavioral and neuroimaging data from 21 participants performing a predictive learning task involving continuous feedback. Participants learned to predict the final level of an animated rising bar under varying conditions of outcome predictability (highly predictable, somewhat predictable, and unpredictable), with performance-based point rewards. The study investigates neural mechanisms of learning and decision-making under uncertainty.",
-  "methods_description": "Participants performed a prediction task where they used a mouse to indicate their guess about how high an animated bar would rise. Each trial was cued by a gnome image and followed by bar animation at 1 degree per second. Six conditions varied in outcome predictability: two highly predictable conditions (consistently low or high), two somewhat predictable conditions (80% biased toward low or high), and two unpredictable conditions (equal probability or random uniform distribution). Trial timing: fixation cross (400-600 ms), gnome cue (1500 ms), bar outline (until response), animation (1 degree/second), final outcome (1000 ms). Participant 11 was excluded due to excessive artifacts.",
-  "keywords": [
-    {
-      "term": "learning"
-    },
-    {
-      "term": "feedback processing"
-    },
-    {
-      "term": "decision making"
-    },
-    {
-      "term": "predictive coding"
-    },
-    {
-      "term": "uncertainty"
-    },
-    {
-      "term": "behavioral task"
-    }
-  ],
-  "source_hash": "0ebb4fd10b2e93fab0ac73fd3e2f16ad224ee077a151157a43474b49dbbd4d9f"
+  "source_hash": "c67b812918cf1884412a53aafb5c77262a4e5269245df640f7ddf2b9ac0ab950"
 }
