@@ -1,31 +1,72 @@
 {
   "version": "2.0",
-  "dataset_id": "on004262",
-  "source": "openneuro",
-  "source_id": "ds004262",
+  "pipeline_stage": "validated",
   "title": "Continuous Feedback Processing",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Cameron D. Hassall": {},
     "Yan Yan": {},
     "Laurence T. Hunt": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004262.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004262",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004262",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.2.1",
-  "recording_modality": [
+  "resource_type_general": "Dataset",
+  "modalities": [
     "beh",
     "eeg"
   ],
-  "datatypes": [
-    "beh",
-    "eeg"
-  ]
+  "resource_type_specific": "Neuroimaging Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".m",
+    ".md",
+    ".mexw64",
+    ".png",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset contains behavioral and neuroimaging data from 21 participants performing a predictive learning task involving continuous feedback. Participants learned to predict the final level of an animated rising bar under varying conditions of outcome predictability (highly predictable, somewhat predictable, and unpredictable), with performance-based point rewards. The study investigates neural mechanisms of learning and decision-making under uncertainty.",
+  "methods_description": "Participants performed a prediction task where they used a mouse to indicate their guess about how high an animated bar would rise. Each trial was cued by a gnome image and followed by bar animation at 1 degree per second. Six conditions varied in outcome predictability: two highly predictable conditions (consistently low or high), two somewhat predictable conditions (80% biased toward low or high), and two unpredictable conditions (equal probability or random uniform distribution). Trial timing: fixation cross (400-600 ms), gnome cue (1500 ms), bar outline (until response), animation (1 degree/second), final outcome (1000 ms). Participant 11 was excluded due to excessive artifacts.",
+  "keywords": [
+    {
+      "term": "learning"
+    },
+    {
+      "term": "feedback processing"
+    },
+    {
+      "term": "decision making"
+    },
+    {
+      "term": "predictive coding"
+    },
+    {
+      "term": "uncertainty"
+    },
+    {
+      "term": "behavioral task"
+    }
+  ],
+  "source_hash": "0ebb4fd10b2e93fab0ac73fd3e2f16ad224ee077a151157a43474b49dbbd4d9f"
 }
