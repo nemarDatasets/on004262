@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004262-blue)](https://doi.org/10.82901/nemar.on004262)
+
 # Continuous Feedback Processing
 
 Twenty-one participants learned to predict the final level of an animated rising bar. Following the appearance of a fixation cross, participants used the mouse to indicate their guess (i.e., how high they thought the bar would rise). After a delay, participants watched the bar rise to its final level. Points were awarded based on the distance between their guess and the actual level. Each round was cued by the appearance of a gnome (cover story: the gnomes are playing a strongman game while visiting a fair). Cues varied in the degree to which the outcome was predictable (highly predictable, somewhat predictable, unpredictable).  
