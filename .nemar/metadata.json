@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Continuous Feedback Processing",
-  "description": "This dataset contains EEG recordings from 21 participants performing a continuous feedback prediction task in which they learned to predict the final level of an animated rising bar based on probabilistic cues. Participants made predictions using mouse responses and received point-based feedback, with trial difficulty manipulated through six gnome cue conditions varying in outcome predictability. The dataset includes behavioral responses, timing information, and neural recordings suitable for investigating feedback processing and predictive learning mechanisms.",
-  "methods_description": "Participants completed a prediction task where each trial consisted of a fixation cross (400-600 ms), a gnome cue (1500 ms) indicating trial type, a bar outline (until response), bar animation (1 degree per second), and final outcome display (1000 ms). Six conditions manipulated outcome predictability: two highly predictable conditions (consistently low or high), two somewhat predictable conditions (80% biased), and two unpredictable conditions (equal probability or random uniform distribution). Participant responses were recorded via mouse input, and trial events were marked with trigger codes indicating fixation, cue onset, bar appearance, response, animation start, and animation end.",
+  "description": "This dataset contains electroencephalography (EEG) recordings from 21 participants performing a continuous feedback prediction task. Participants learned to predict the final level of an animated rising bar under varying conditions of outcome predictability (highly predictable, somewhat predictable, and unpredictable), with performance feedback provided through point rewards. The dataset includes behavioral responses, stimulus timing information, and trigger codes for experimental events, enabling investigation of neural correlates of prediction, feedback processing, and learning under uncertainty.",
+  "methods_description": "EEG data were collected while participants performed a prediction task involving mouse-based responses to visual cues (gnomes) that varied in outcome predictability. Each trial consisted of a fixation cross (400-600 ms), gnome cue (1500 ms), bar outline (until response), bar animation (1 degree per second), and final outcome display (1000 ms). Trigger codes were recorded to mark fixation onset, cue presentation, bar appearance, participant response, animation start, and animation end.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -19,16 +19,16 @@
       "term": "feedback processing"
     },
     {
-      "term": "predictive learning"
+      "term": "prediction learning"
     },
     {
       "term": "decision making"
     },
     {
-      "term": "reward prediction"
+      "term": "uncertainty"
     },
     {
-      "term": "cognitive neuroscience"
+      "term": "event-related potentials"
     }
   ],
   "related_identifiers": [
@@ -38,14 +38,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004262",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds004262.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004262",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_general": "Dataset",
