@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Continuous Feedback Processing",
-  "description": "This dataset contains EEG recordings from twenty-one participants performing a continuous feedback learning task in which they predicted the final height of an animated rising bar following different predictive cues. The task manipulated outcome predictability (highly predictable, somewhat predictable, unpredictable) using cued gnome stimuli, allowing investigation of neural correlates of continuous feedback and reward prediction processing.",
-  "methods_description": "Participants viewed a fixation cross, then a cue (gnome) indicating the type of trial, followed by a bar outline; they used a mouse to indicate their predicted final bar height before watching the bar animate to its final level and receiving points based on prediction accuracy. EEG triggers marked fixation cross onset, cue onset, bar outline appearance, response, animation start, and animation end.",
+  "description": "EEG dataset from twenty-one participants performing a continuous feedback learning task in which they predicted the final level of an animated rising bar. Cues (gnomes) differed in how predictable the outcome was (highly predictable, somewhat predictable, unpredictable), enabling study of feedback processing under varying outcome uncertainty. Points were awarded according to the accuracy of each guess.",
+  "methods_description": "Each trial began with a fixation cross (400-600 ms), followed by a gnome cue (1500 ms) and a bar outline. Participants indicated their guess with the mouse. The bar then rose at 1 degree per second and the final outcome was shown for 1000 ms. Six gnome types defined the outcome distributions, and event triggers marked each trial stage. Participant 11 was excluded due to excessive artifacts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -16,21 +16,21 @@
       "term": "EEG"
     },
     {
-      "term": "feedback"
+      "term": "feedback processing"
     },
     {
-      "term": "reward prediction"
+      "term": "prediction"
     },
     {
-      "term": "Decision Making",
+      "term": "reinforcement learning"
+    },
+    {
+      "term": "outcome predictability"
+    },
+    {
+      "term": "Learning",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D003657"
-    },
-    {
-      "term": "continuous feedback processing"
-    },
-    {
-      "term": "learning"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007858"
     }
   ],
   "related_identifiers": [
@@ -57,7 +57,7 @@
     "eeg"
   ],
   "sizes": [
-    "3.7 GB (76 files)"
+    "3.47 GB (76 files)"
   ],
   "formats": [
     ".eeg",
